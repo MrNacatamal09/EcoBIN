@@ -12,34 +12,82 @@ El sistema está dirigido al entorno de la Universidad Americana UAM, con el fin
 Arquitectura y almacenamiento
 EcoBIN utiliza archivos de texto (.txt) y Comma-Separated Values (.csv) para almacenar información.
 Se emplean tres archivos principales dentro de una carpeta asignada:
+
+
 • usuarios.txt contiene CIF, nombre, contraseña, puntos y rol.
+
+
 • registros.csv contiene cada registro de reciclaje por usuario.
+
+
 • canjes.csv almacena los canjes realizados con fecha y tipo de beneficio.
 
+
+
 El sistema se basa en clases, servicios y ventanas organizadas de la siguiente manera:
+
+
 • Modelos define las estructuras de datos como Usuario, RegistroReciclaje, CanjeBeneficio.
+
+
 • Servicios contiene clases responsables de leer, escribir y actualizar información en los archivos.
+
+
 • Ventanas_Adicionales contiene los formularios que componen la interfaz gráfica.
 
 Roles del sistema
+
+
 • Usuario común puede registrarse automáticamente desde el login, registrar materiales, consultar puntos, visualizar ranking y realizar canjes.
+
+
 • Usuario administrador no genera registros ni puntos. Su función es gestionar usuarios, acceder a reportes y supervisar el funcionamiento general del sistema.
 
-Características principales
+
+
+Características principales:
+
+
 • Registro automático de usuarios mediante CIF, nombre y contraseña.
+
+
 • Inicio de sesión validado por credenciales.
+
+
 • Registro de materiales reciclados asociado a puntos.
+
+
 • Consulta detallada de historial de reciclaje y movimientos.
+
+
 • Canje de puntos basado en beneficios predefinidos.
+
+
 • Ranking global basado en los puntos acumulados.
+
+
 • Administración de usuarios (actualización y eliminación).
+
+
 • Generación de reportes para análisis global.
+
+
 • Sistema de advertencias y bloqueos según rol.
 
+
+
 Requerimientos mínimos
+
+
 • Windows 10 o superior
+
+
 • Microsoft .NET Framework 4.7.2 o superior
-• Visual Studio para desarrolladores (opcional)
+
+
+• Visual Studio para desarrolladores
+
+
 
 Producción y derechos
 EcoBIN es un proyecto académico creado con fines educativos para la gestión de actividades relacionadas al reciclaje. Su estructura es adaptable y puede expandirse según nuevas necesidades.
