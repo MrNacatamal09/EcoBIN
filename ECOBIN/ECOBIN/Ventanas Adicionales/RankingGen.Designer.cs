@@ -37,6 +37,8 @@
             this.registroDeMaterialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultaTusPuntosEcoBINToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripDropDownButton2 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.menuOpcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRanking)).BeginInit();
@@ -57,11 +59,11 @@
             // dataGridViewRanking
             // 
             this.dataGridViewRanking.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewRanking.Location = new System.Drawing.Point(139, 183);
+            this.dataGridViewRanking.Location = new System.Drawing.Point(132, 275);
             this.dataGridViewRanking.Name = "dataGridViewRanking";
             this.dataGridViewRanking.RowHeadersWidth = 51;
             this.dataGridViewRanking.RowTemplate.Height = 24;
-            this.dataGridViewRanking.Size = new System.Drawing.Size(852, 532);
+            this.dataGridViewRanking.Size = new System.Drawing.Size(852, 371);
             this.dataGridViewRanking.TabIndex = 0;
             // 
             // groupBox2
@@ -71,7 +73,7 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Location = new System.Drawing.Point(2, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1083, 143);
+            this.groupBox2.Size = new System.Drawing.Size(1083, 190);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -79,7 +81,8 @@
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripDropDownButton1});
+            this.toolStripDropDownButton1,
+            this.toolStripDropDownButton2});
             this.toolStrip1.Location = new System.Drawing.Point(3, 18);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(1077, 27);
@@ -120,13 +123,31 @@
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
+            // toolStripDropDownButton2
+            // 
+            this.toolStripDropDownButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripDropDownButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuOpcionesToolStripMenuItem});
+            this.toolStripDropDownButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton2.Image")));
+            this.toolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripDropDownButton2.Name = "toolStripDropDownButton2";
+            this.toolStripDropDownButton2.Size = new System.Drawing.Size(34, 24);
+            this.toolStripDropDownButton2.Text = "toolStripDropDownButton2";
+            // 
+            // menuOpcionesToolStripMenuItem
+            // 
+            this.menuOpcionesToolStripMenuItem.Name = "menuOpcionesToolStripMenuItem";
+            this.menuOpcionesToolStripMenuItem.Size = new System.Drawing.Size(214, 26);
+            this.menuOpcionesToolStripMenuItem.Text = "Menu de opciones";
+            this.menuOpcionesToolStripMenuItem.Click += new System.EventHandler(this.menuOpcionesToolStripMenuItem_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(141, 55);
+            this.label1.Location = new System.Drawing.Point(134, 70);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(804, 85);
             this.label1.TabIndex = 0;
@@ -163,5 +184,7 @@
         private System.Windows.Forms.ToolStripMenuItem consultaTusPuntosEcoBINToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.DataGridView dataGridViewRanking;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton2;
+        private System.Windows.Forms.ToolStripMenuItem menuOpcionesToolStripMenuItem;
     }
 }

@@ -1,0 +1,13 @@
+24010000;EcoBIN;admin123;0;Admin
+24013345;Mirta Valle;asdfg;0;Usuario
+21034567;Wendy Molina;wasdfg;0;Usuario
+22017654;Glinda Diaz;09012001;0;Usuario
+23012587;Silvio Arce;optimus;0;Usuario
+24012347;Gilberto Franco;jijijaja;0;Usuario
+25012344;Wilber Timon;darien23;0;Usuario
+22012345;Camila Mendez;fedsaw;0;Usuario
+24095678;Madeling Fernandez;qawsed;0;Usuario
+23018876;Yina Calderon;youthful;0;Usuario
+25023456;Kiara Marley;gyuuufree;0;Usuario
+23032457;Victor Gonzalez;12345;0;Usuario
+24013844;Alexa Loaisiga;alele2008;0;Usuario

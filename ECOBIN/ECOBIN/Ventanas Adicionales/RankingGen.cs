@@ -17,12 +17,6 @@ namespace ECOBIN.Ventanas_Adicionales
             _usuarioActual = usuario;
         }
 
-        private void RankingGen_Load(object sender, EventArgs e)
-        {
-            ConfigurarGridRanking();
-            CargarRanking();
-        }
-
         //  CONFIGURAR GRID
         private void ConfigurarGridRanking()
         {
@@ -170,8 +164,34 @@ namespace ECOBIN.Ventanas_Adicionales
 
         private void RankingGen_Load_1(object sender, EventArgs e)
         {
+            toolStripDropDownButton2.Visible = EsAdmin();
             ConfigurarGridRanking();
             CargarRanking();
+        }
+
+        private bool EsAdmin()
+        {
+            return _usuarioActual.Rol != null &&
+                   _usuarioActual.Rol.Equals("Admin", StringComparison.OrdinalIgnoreCase);
+        }
+
+        private void menuOpcionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Restringido para Administrador
+            if (!EsAdmin())
+            {
+                MessageBox.Show(
+                    "Solo el administrador puede regresar al menú desde esta sección.",
+                    "Acceso restringido",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+                return; // El usuario normal se queda en RankingGen
+            }
+
+            // Admin → regresar al menú principal
+            this.Hide();
+            new MenuOpciones(_usuarioActual).Show();
         }
     }
 }

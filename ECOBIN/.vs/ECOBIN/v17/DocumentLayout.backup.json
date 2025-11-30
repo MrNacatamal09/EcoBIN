@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{87B20000-8322-46B7-9C1E-FF752BCCB67E}|ECOBIN\\ECOBIN.csproj|C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ecobin\\ventanas adicionales\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{87B20000-8322-46B7-9C1E-FF752BCCB67E}|ECOBIN\\ECOBIN.csproj|solutionrelative:ecobin\\ventanas adicionales\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87B20000-8322-46B7-9C1E-FF752BCCB67E}|ECOBIN\\ECOBIN.csproj|c:\\users\\hp\\onedrive\\documents\\ii semestre\\programacion estructurada\\ecobin\\ecobin\\ecobin\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87B20000-8322-46B7-9C1E-FF752BCCB67E}|ECOBIN\\ECOBIN.csproj|solutionrelative:ecobin\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87B20000-8322-46B7-9C1E-FF752BCCB67E}|ECOBIN\\ECOBIN.csproj|C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ecobin\\ventanas adicionales\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87B20000-8322-46B7-9C1E-FF752BCCB67E}|ECOBIN\\ECOBIN.csproj|solutionrelative:ecobin\\ventanas adicionales\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87B20000-8322-46B7-9C1E-FF752BCCB67E}|ECOBIN\\ECOBIN.csproj|C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ecobin\\servicios\\registroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87B20000-8322-46B7-9C1E-FF752BCCB67E}|ECOBIN\\ECOBIN.csproj|solutionrelative:ecobin\\servicios\\registroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87B20000-8322-46B7-9C1E-FF752BCCB67E}|ECOBIN\\ECOBIN.csproj|c:\\users\\hp\\onedrive\\documents\\ii semestre\\programacion estructurada\\ecobin\\ecobin\\ecobin\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{87B20000-8322-46B7-9C1E-FF752BCCB67E}|ECOBIN\\ECOBIN.csproj|solutionrelative:ecobin\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,69 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ECOBIN\\Login.cs",
-              "RelativeDocumentMoniker": "ECOBIN\\Login.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ECOBIN\\Login.cs",
-              "RelativeToolTip": "ECOBIN\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T04:34:55.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ECOBIN\\Login.cs",
-              "RelativeDocumentMoniker": "ECOBIN\\Login.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ECOBIN\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ECOBIN\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T04:33:33.05Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Registro.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ECOBIN\\Ventanas Adicionales\\Registro.cs",
-              "RelativeDocumentMoniker": "ECOBIN\\Ventanas Adicionales\\Registro.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ECOBIN\\Ventanas Adicionales\\Registro.cs*",
-              "RelativeToolTip": "ECOBIN\\Ventanas Adicionales\\Registro.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T04:15:35.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegistroService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ECOBIN\\Servicios\\RegistroService.cs",
-              "RelativeDocumentMoniker": "ECOBIN\\Servicios\\RegistroService.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ECOBIN\\Servicios\\RegistroService.cs",
-              "RelativeToolTip": "ECOBIN\\Servicios\\RegistroService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T04:54:37.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Registro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ECOBIN\\Ventanas Adicionales\\Registro.cs",
-              "RelativeDocumentMoniker": "ECOBIN\\Ventanas Adicionales\\Registro.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\II SEMESTRE\\PROGRAMACION ESTRUCTURADA\\ECOBIN\\ECOBIN\\ECOBIN\\Ventanas Adicionales\\Registro.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "ECOBIN\\Ventanas Adicionales\\Registro.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T04:15:28.123Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

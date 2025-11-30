@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ECOBIN.Modelos
 {
+    //Clase que representa a un usuario en el sistema ECOBIN
     public class Usuario
     {
         public string CIF { get; set; }

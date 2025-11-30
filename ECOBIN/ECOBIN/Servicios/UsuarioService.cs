@@ -8,14 +8,14 @@ namespace ECOBIN.Servicios
 {
     public static class UsuarioService
     {
-        // Ruta fija que tú usas
+        // Ruta fija usada para almacenar los datos
         private static string carpetaDatos =
             @"C:\Users\HP\OneDrive\Documents\II SEMESTRE\PROGRAMACION ESTRUCTURADA\ECOBIN\ECOBIN\ECOBIN\Archivos";
 
         private static string archivoUsuarios = Path.Combine(carpetaDatos, "usuarios.txt");
 
         // Credenciales del admin por defecto
-        private const string CIF_ADMIN = "24010000";          // 8 dígitos para que pase tu validación
+        private const string CIF_ADMIN = "24010000";          // 8 dígitos para que pase validación
         private const string PASS_ADMIN = "admin123";
         private const string NOMBRE_ADMIN = "EcoBIN";
 
@@ -104,6 +104,7 @@ namespace ECOBIN.Servicios
             return nuevo;
         }
 
+        // Sumar puntos a un usuario dado su CIF
         public static void SumarPuntos(string cif, int puntos)
         {
             var usuarios = CargarUsuarios();
@@ -142,5 +143,44 @@ namespace ECOBIN.Servicios
                 GuardarUsuarios(usuarios);
             }
         }
+
+        // Eliminar usuario y todos sus registros asociados de reciclaje y canje (ADMIN)
+        public static bool EliminarUsuarioPorCif(string cif)
+        {
+            var usuarios = CargarUsuarios();
+            var usuario = usuarios.FirstOrDefault(u => u.CIF == cif);
+
+            if (usuario == null) return false;
+
+            usuarios.Remove(usuario);
+            GuardarUsuarios(usuarios);
+
+            // 1) Quitar del archivo de usuarios
+            usuarios.Remove(usuario);
+            GuardarUsuarios(usuarios);
+
+            // 2) Quitar todos sus registros de reciclaje
+            RegistroService.EliminarRegistrosPorUsuario(cif);
+
+            // 3) Quitar todos sus registros de canje
+            CanjeService.EliminarCanjesPorUsuario(cif);
+            return true;
+        }
+
+        // Actualizar nombre y contraseña de un usuario dado su CIF (ADMIN)
+        public static bool ActualizarUsuario(string cif, string nuevoNombre, string nuevaPass)
+        {
+            var usuarios = CargarUsuarios();
+            var usuario = usuarios.FirstOrDefault(u => u.CIF == cif);
+
+            if (usuario == null) return false;
+
+            usuario.Nombre = nuevoNombre;
+            usuario.Password = nuevaPass;
+
+            GuardarUsuarios(usuarios);
+            return true;
+        }
+
     }
 }

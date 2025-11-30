@@ -2,6 +2,7 @@
 
 namespace ECOBIN.Modelos
 {
+    //Clase para representar un registro de material reciclado
     public class RegistroMaterial
     {
         public string CifUsuario { get; set; }      // quién recicló

@@ -19,10 +19,10 @@ namespace ECOBIN.Ventanas_Adicionales
 
         private static readonly string[] FrasesInspiradoras = new[]
         {
-            "Cada botella cuenta. ¡Gracias por reciclar! ♻️",
+            "Cada botella cuenta. ¡Gracias por reciclar!",
             "Tus pequeñas acciones crean grandes cambios.",
             "Hoy reciclas, mañana respiras aire más limpio.",
-            "El planeta te lo agradece, ¡sigue así! 🌎",
+            "El planeta te lo agradece, ¡sigue así!",
             "Convertir basura en puntos es convertir futuro en esperanza.",
             "EcoBIN: sumando puntos, restando residuos.",
             "Lo que hoy reciclas, mañana no contamina.",
