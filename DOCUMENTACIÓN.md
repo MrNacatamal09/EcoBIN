@@ -1,16 +1,30 @@
 # EcoBIN
 
-Descripción general del proyecto
+♻️ Descripción general del proyecto
+
+
 EcoBIN es una aplicación de escritorio desarrollada en C# con Windows Forms, cuyo objetivo es incentivar y gestionar actividades de reciclaje mediante un sistema de puntos. Cada usuario registrado puede ingresar materiales reciclados, acumular puntos, consultar su historial, visualizar un ranking general y canjear beneficios predefinidos. El sistema también permite la gestión de usuarios mediante un rol administrador, el cual tiene acceso exclusivo a ciertas funciones como actualización, eliminación de usuarios y generación de reportes.
 
 Objetivo del sistema
+
+
 El propósito principal de EcoBIN es fomentar hábitos responsables con el medio ambiente mediante una plataforma sencilla donde los usuarios puedan registrar sus acciones ecológicas y ver reflejado su esfuerzo mediante puntos y recompensas.
 
+
+
 Público objetivo
+
+
 El sistema está dirigido al entorno de la Universidad Americana UAM, con el fin de mantener un control básico y automatizado de las actividades ecológicas realizadas.
 
+
+
 Arquitectura y almacenamiento
+
+
 EcoBIN utiliza archivos de texto (.txt) y Comma-Separated Values (.csv) para almacenar información.
+
+
 Se emplean tres archivos principales dentro de una carpeta asignada:
 
 
@@ -90,4 +104,6 @@ Requerimientos mínimos
 
 
 Producción y derechos
+
+
 EcoBIN es un proyecto académico creado con fines educativos para la gestión de actividades relacionadas al reciclaje. Su estructura es adaptable y puede expandirse según nuevas necesidades.
