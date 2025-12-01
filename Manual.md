@@ -36,7 +36,7 @@ Si el CIF no existe, el sistema registra automáticamente al usuario como Usuari
 Si el CIF existe, el sistema valida el nombre y contraseña antes de permitir el acceso.
 
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 Pantalla principal del menú
 
@@ -45,7 +45,13 @@ Una vez dentro del sistema, se presenta el menú de opciones. Las funciones disp
 
 
 
-Opciones disponibles para usuario común
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+🙋‍♀️ Opciones disponibles para usuario común
+
+
 
 
 • Registro de materiales a reciclar
@@ -61,6 +67,8 @@ Al ingresar, se muestra una frase motivacional de manera aleatoria.
 
 
 
+
+
 • Consulta de puntos
 
 
@@ -68,6 +76,8 @@ Muestra los puntos totales del usuario, el historial completo de registros reali
 
 
 Cada movimiento señala fecha, material, peso y puntos sumados o restados.
+
+
 
 
 
@@ -94,7 +104,9 @@ La acción queda registrada en el historial de movimientos.
 
 
 
-Opciones exclusivas del administrador
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+👤 Opciones exclusivas del administrador
 
 
 • Actualizar usuario
@@ -122,6 +134,8 @@ No se permite borrar al propio administrador mientras esté en uso.
 La ventana de reportes está diseñada para generar 2 secciones de reportes que incluyen, según la configuración, resumen por material y resumen por usuario
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Resumen de materiales reciclados
 
@@ -136,6 +150,10 @@ Podrá expandirse con filtros por fecha mediante DateTimePicker u otros criterio
 
 
 Solo el administrador tiene acceso a esta ventana.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -157,11 +175,17 @@ Restricciones de seguridad según rol
 • El usuario común no puede ver el menú de opciones dentro de RankingGeneral.
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Cierre de sesión
 
 
 Desde cualquier ventana donde esté disponible la opción Salir, el usuario puede cerrar sesión y volver al inicio.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
@@ -175,6 +199,11 @@ Si el sistema no encuentra archivos, los crea automáticamente.
 
 
 Para evitar errores, no manipular manualmente los archivos de texto.
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
