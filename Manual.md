@@ -25,12 +25,21 @@ Se deben ingresar tres datos
 • CIF compuesto por ocho dígitos numéricos.
 
 
+
+
 • Nombre del usuario.
+
+
 
 
 • Contraseña.
 
+
+
+
 Si el CIF no existe, el sistema registra automáticamente al usuario como Usuario.
+
+
 
 
 Si el CIF existe, el sistema valida el nombre y contraseña antes de permitir el acceso.
@@ -69,6 +78,9 @@ Al ingresar, se muestra una frase motivacional de manera aleatoria.
 
 
 
+
+
+
 • Consulta de puntos
 
 
@@ -76,6 +88,8 @@ Muestra los puntos totales del usuario, el historial completo de registros reali
 
 
 Cada movimiento señala fecha, material, peso y puntos sumados o restados.
+
+
 
 
 
@@ -94,6 +108,10 @@ El usuario común puede visualizar el ranking, pero no regresar al menú desde e
 
 
 
+
+
+
+
 • Canje de puntos
 
 
@@ -104,15 +122,20 @@ La acción queda registrada en el historial de movimientos.
 
 
 
+
+
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 👤 Opciones exclusivas del administrador
+
 
 
 • Actualizar usuario
 
 
 Solicita un CIF, carga la información del usuario y permite editar nombre y contraseña.
+
+
 
 
 
@@ -124,6 +147,8 @@ Solicita un CIF y elimina al usuario, su historial de reciclaje y su historial d
 
 
 No se permite borrar al propio administrador mientras esté en uso.
+
+
 
 
 
