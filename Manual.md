@@ -2,12 +2,14 @@
 
 MANUAL DE USUARIO DEL SISTEMA ECOBIN
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Introducción
 
 
 Este manual describe detalladamente el funcionamiento de EcoBIN y explica el uso de cada una de sus ventanas. Está dirigido a usuarios comunes y administradores.
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Inicio del sistema
 
@@ -117,7 +119,8 @@ No se permite borrar al propio administrador mientras esté en uso.
 • Reportes EcoBIN
 
 
-La ventana de reportes está diseñada para generar documentos PDF que incluyen, según la configuración
+La ventana de reportes está diseñada para generar 2 secciones de reportes que incluyen, según la configuración, resumen por material y resumen por usuario
+
 
 
 Resumen de materiales reciclados
