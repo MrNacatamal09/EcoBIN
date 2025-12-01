@@ -41,7 +41,7 @@ Se emplean tres archivos principales dentro de una carpeta asignada:
 El sistema se basa en clases, servicios y ventanas organizadas de la siguiente manera:
 
 
-• Modelos define las estructuras de datos como Usuario, RegistroReciclaje, CanjeBeneficio.
+• Modelos define las estructuras de datos como Usuario, RegistroMaterial, CanjeBeneficio.
 
 
 • Servicios contiene clases responsables de leer, escribir y actualizar información en los archivos.
