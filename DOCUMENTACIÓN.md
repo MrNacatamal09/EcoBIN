@@ -1,9 +1,14 @@
-# EcoBIN
+# ♻️EcoBIN
 
-♻️ Descripción general del proyecto
+
+Descripción general del proyecto
 
 
 EcoBIN es una aplicación de escritorio desarrollada en C# con Windows Forms, cuyo objetivo es incentivar y gestionar actividades de reciclaje mediante un sistema de puntos. Cada usuario registrado puede ingresar materiales reciclados, acumular puntos, consultar su historial, visualizar un ranking general y canjear beneficios predefinidos. El sistema también permite la gestión de usuarios mediante un rol administrador, el cual tiene acceso exclusivo a ciertas funciones como actualización, eliminación de usuarios y generación de reportes.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 Objetivo del sistema
 
@@ -11,12 +16,16 @@ Objetivo del sistema
 El propósito principal de EcoBIN es fomentar hábitos responsables con el medio ambiente mediante una plataforma sencilla donde los usuarios puedan registrar sus acciones ecológicas y ver reflejado su esfuerzo mediante puntos y recompensas.
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Público objetivo
 
 
 El sistema está dirigido al entorno de la Universidad Americana UAM, con el fin de mantener un control básico y automatizado de las actividades ecológicas realizadas.
 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Arquitectura y almacenamiento
@@ -49,6 +58,8 @@ El sistema se basa en clases, servicios y ventanas organizadas de la siguiente m
 
 • Ventanas_Adicionales contiene los formularios que componen la interfaz gráfica.
 
+
+
 Roles del sistema
 
 
@@ -56,6 +67,9 @@ Roles del sistema
 
 
 • Usuario administrador no genera registros ni puntos. Su función es gestionar usuarios, acceder a reportes y supervisar el funcionamiento general del sistema.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -89,7 +103,7 @@ Características principales:
 • Sistema de advertencias y bloqueos según rol.
 
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Requerimientos mínimos
 
 
@@ -102,6 +116,7 @@ Requerimientos mínimos
 • Visual Studio para desarrolladores
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Producción y derechos
 
