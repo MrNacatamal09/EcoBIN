@@ -12,7 +12,6 @@ namespace ECOBIN.Servicios
         // ruta del archivo de datos
         private static string carpetaDatos =
             @"C:\Users\HP\OneDrive\Documents\II SEMESTRE\PROGRAMACION ESTRUCTURADA\ECOBIN\ECOBIN\ECOBIN\Archivos";
-
         
         private static string archivoRegistros = Path.Combine(carpetaDatos, "registros.csv");
 
@@ -57,6 +56,7 @@ namespace ECOBIN.Servicios
             );
 
             File.AppendAllLines(archivoRegistros, new[] { linea });
+            MaterialesService.ActualizarResumenMateriales();
         }
 
         // Carga todos los registros de un usuario específico
@@ -92,6 +92,8 @@ namespace ECOBIN.Servicios
 
             return lista;
         }
+
+
 
         // Elimina todos los registros asociados a un usuario específico
         public static void EliminarRegistrosPorUsuario(string cif)

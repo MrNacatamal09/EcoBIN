@@ -59,6 +59,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicios\CanjeService.cs" />
+    <Compile Include="Servicios\MaterialesService.cs" />
     <Compile Include="Servicios\RegistroService.cs" />
     <Compile Include="Servicios\UsuarioService.cs" />
     <Compile Include="Ventanas Adicionales\ConsultaPuntos.cs">

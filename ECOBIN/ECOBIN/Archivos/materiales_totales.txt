@@ -1,0 +1,4 @@
+Material;PesoTotalLb
+Cartón;34
+Electrónicos;131
+Vidrio;32

@@ -107,12 +107,9 @@ namespace ECOBIN
 
         private void AbrirMenu(Usuario usuario)
         {
-            // Si en el futuro creas un MenuOpcionesAdmin, aquí lo cambias.
-            // Por ahora ambos roles usan el mismo menú.
             if (usuario.Rol.Equals("Admin", StringComparison.OrdinalIgnoreCase))
             {
-                // Podrías mostrar un mensaje solo para saber que entró como admin
-                // MessageBox.Show("Has ingresado como administrador.", "EcoBIN");
+                
             }
 
             MenuOpciones menu = new MenuOpciones(usuario);
